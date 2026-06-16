@@ -1,21 +1,24 @@
-# Shortest Path Finder (Dijkstra’s Algorithm)
+# 🗺️ Shortest Path Finder (Dijkstra’s Algorithm)
 
-A Python implementation of Dijkstra’s Algorithm to find the shortest path from a source node to all other nodes in a weighted graph.
+A Python-based project that finds the shortest route between major cities
+of Nepal using **Dijkstra's Algorithm** — one of the most famous graph
+algorithms in computer science, developed by Dutch scientist Edsger W. Dijkstra.
 
----
+## What it does
+- Models major cities of Nepal as a weighted graph
+- Roads between cities are edges, distances in km are weights
+- Finds the shortest path between any two cities using Dijkstra's algorithm
+- Visualises the graph and highlights the shortest route on screen
 
-## Algorithm Used
+## Tech Stack
+- **Python 3**
+- **NetworkX** — graph data structure
+- **Matplotlib** — visualization
 
-### Dijkstra’s Algorithm
-Dijkstra’s algorithm finds the shortest path between nodes in a graph with non-negative edge weights.
+## How to run
+```bash
+pip install networkx matplotlib
+python src/main.py
+```
 
----
-
-## Features
-
-- Finds shortest path from a single source node
-- Works on weighted graphs
-- Efficient priority queue implementation
-- Beginner-friendly code structure
-
----
+## Project Structure
