@@ -79,7 +79,7 @@ roads = [
     ("Tulsipur",    "Dhangadhi",    145),
     ("Dhangadhi",   "Tikapur",       45),
     ("Tikapur",     "Mahendranagar", 80),
-    ("Dhangadhi",   "Mahendranagar", 90)
+    ("Dhangadhi",   "Mahendranagar", 90),
     ("Dang",        "Nepalgunj",    110),
     ("Dang",        "Butwal",       120),
     ("Dang",        "Tulsipur",      75),
