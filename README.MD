@@ -22,3 +22,17 @@ python src/main.py
 ```
 
 ## Project Structure
+Shortest Distance /
+
+├── src/
+
+│   ├── main.py       # Entry point and visualization
+
+│   ├── graph.py      # City nodes and road edges
+
+│   └── dijkstra.py   # Shortest path algorithm
+
+└── README.md
+
+## Academic Context
+Built as a university project for Data Structures & Algorithms course
